@@ -1,0 +1,19 @@
+# Base: introducción, aprendizaje supervisado, no supervisado e hiperparámetros
+jupyter
+numpy
+scipy
+pandas
+matplotlib
+scikit-learn
+
+# Deep Learning y Reinforcement Learning
+torch
+torchvision
+tensorflow
+transformers
+sentencepiece
+
+# Embeddings (03-deep-learning/07-one-hot-vs-embeddings)
+nltk
+umap-learn
+wordfreq

@@ -79,11 +79,6 @@ La presentación [Introducción al Machine Learning](docs/slides/intro-machine-l
 | 01 | [Optimización de Hiperparámetros](notebooks/05-hiperparametros/01-optimizacion-hiperparametros.ipynb) | Grid Search, Random Search, optimización bayesiana, algoritmos genéticos, Successive Halving e Hyperband |
 | 02 | [Random Search vs Grid Search](notebooks/05-hiperparametros/02-random-search-vs-grid-search.ipynb) | Comparación experimental de ambas búsquedas |
 
-## Material de apoyo
-
-- [`docs/slides/intro-machine-learning.pptx`](docs/slides/intro-machine-learning.pptx): presentación introductoria del curso.
-- [`docs/whiteboards/`](docs/whiteboards): pizarras de [Excalidraw](https://excalidraw.com) que explican paso a paso un MLP (`mlp-*`) y una CNN de clasificación (`cnn-clasificacion-*`). Para verlas, abre excalidraw.com y usa *Open* para cargar el archivo.
-
 ## Estructura
 
 ```
@@ -95,9 +90,6 @@ La presentación [Introducción al Machine Learning](docs/slides/intro-machine-l
 │   ├── 03-deep-learning/
 │   ├── 04-reinforcement-learning/
 │   └── 05-hiperparametros/
-├── docs/
-│   ├── slides/
-│   └── whiteboards/
 ├── requirements.txt
 └── README.md
 ```

@@ -2,6 +2,8 @@
 
 Curso práctico de Machine Learning, Deep Learning y Reinforcement Learning en notebooks de Jupyter, desde la regresión lineal hasta Transformers.
 
+## Enfoque
+
 Casi todas las notebooks siguen la misma estructura:
 
 1. **Objetivo:** qué problema resuelve el algoritmo.
@@ -11,7 +13,7 @@ Casi todas las notebooks siguen la misma estructura:
 
 Las notebooks se guardan con sus resultados ejecutados, así que se pueden leer directamente en GitHub.
 
-## Ruta de aprendizaje
+## Notebooks
 
 Las carpetas y las notebooks están numeradas en el orden sugerido de estudio.
 
@@ -20,8 +22,6 @@ Las carpetas y las notebooks están numeradas en el orden sugerido de estudio.
 | # | Notebook | Contenido |
 |---|----------|-----------|
 | 01 | [Regresión, Clasificación y Pronóstico](notebooks/00-introduccion/01-regresion-clasificacion-pronostico.ipynb) | Diferencias entre los tres tipos de problema, zonas grises y un mismo problema visto desde los tres enfoques |
-
-La presentación [Introducción al Machine Learning](docs/slides/intro-machine-learning.pptx) acompaña esta sección: qué es la IA, su taxonomía, la definición formal de ML y los paradigmas de aprendizaje.
 
 ### 01 · Aprendizaje supervisado
 
@@ -79,11 +79,6 @@ La presentación [Introducción al Machine Learning](docs/slides/intro-machine-l
 | 01 | [Optimización de Hiperparámetros](notebooks/05-hiperparametros/01-optimizacion-hiperparametros.ipynb) | Grid Search, Random Search, optimización bayesiana, algoritmos genéticos, Successive Halving e Hyperband |
 | 02 | [Random Search vs Grid Search](notebooks/05-hiperparametros/02-random-search-vs-grid-search.ipynb) | Comparación experimental de ambas búsquedas |
 
-## Material de apoyo
-
-- [`docs/slides/intro-machine-learning.pptx`](docs/slides/intro-machine-learning.pptx): presentación introductoria del curso.
-- [`docs/whiteboards/`](docs/whiteboards): pizarras de [Excalidraw](https://excalidraw.com) que explican paso a paso un MLP (`mlp-*`) y una CNN de clasificación (`cnn-clasificacion-*`). Para verlas, abre excalidraw.com y usa *Open* para cargar el archivo.
-
 ## Estructura
 
 ```
@@ -95,9 +90,6 @@ La presentación [Introducción al Machine Learning](docs/slides/intro-machine-l
 │   ├── 03-deep-learning/
 │   ├── 04-reinforcement-learning/
 │   └── 05-hiperparametros/
-├── docs/
-│   ├── slides/
-│   └── whiteboards/
 ├── requirements.txt
 └── README.md
 ```
@@ -119,7 +111,14 @@ jupyter notebook
 
 Abre cualquier notebook de la carpeta `notebooks/` y ejecuta las celdas en orden.
 
-Las secciones 00, 01, 02 y 05 solo necesitan las dependencias base de `requirements.txt` (NumPy, SciPy, pandas, Matplotlib y scikit-learn). Deep Learning y Reinforcement Learning requieren además PyTorch, y algunas notebooks puntuales usan TensorFlow o Hugging Face Transformers.
-
-
 También puedes abrir cualquier notebook en [Google Colab](https://colab.research.google.com): *File → Open notebook → GitHub* y pega la URL del repositorio.
+
+### Notas
+
+- **Dependencias:** las secciones 00, 01, 02 y 05 solo necesitan la sección base de `requirements.txt` (NumPy, SciPy, pandas, Matplotlib y scikit-learn). Deep Learning y Reinforcement Learning requieren además PyTorch, y algunas notebooks puntuales usan TensorFlow o Hugging Face Transformers.
+
+## Repositorios relacionados
+
+- [math-for-ml](https://github.com/astorress/math-for-ml): álgebra lineal, sistemas de ecuaciones, cálculo vectorial y estadística para ML.
+- [algoritmos-from-scratch](https://github.com/astorress/algoritmos-from-scratch): complejidad, búsqueda, ordenamiento, grafos, optimización y computación cuántica desde cero.
+- [data-science-lab](https://github.com/astorress/data-science-lab): casos prácticos de data science aplicado con librerías.

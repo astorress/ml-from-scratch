@@ -1,6 +1,6 @@
 # ML from Scratch
 
-Curso práctico de Machine Learning, Deep Learning y Reinforcement Learning en notebooks de Jupyter, desde la regresión lineal hasta Transformers.
+Notebooks de Jupyter para estudiar Machine Learning, Deep Learning y Reinforcement Learning en notebooks de Jupyter, desde la regresión lineal hasta Transformers.
 
 ## Enfoque
 

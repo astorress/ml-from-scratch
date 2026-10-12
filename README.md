@@ -116,9 +116,3 @@ También puedes abrir cualquier notebook en [Google Colab](https://colab.researc
 ### Notas
 
 - **Dependencias:** las secciones 00, 01, 02 y 05 solo necesitan la sección base de `requirements.txt` (NumPy, SciPy, pandas, Matplotlib y scikit-learn). Deep Learning y Reinforcement Learning requieren además PyTorch, y algunas notebooks puntuales usan TensorFlow o Hugging Face Transformers.
-
-## Repositorios relacionados
-
-- [math-for-ml](https://github.com/astorress/math-for-ml): álgebra lineal, sistemas de ecuaciones, cálculo vectorial y estadística para ML.
-- [algoritmos-from-scratch](https://github.com/astorress/algoritmos-from-scratch): complejidad, búsqueda, ordenamiento, grafos, optimización y computación cuántica desde cero.
-- [data-science-lab](https://github.com/astorress/data-science-lab): casos prácticos de data science aplicado con librerías.
